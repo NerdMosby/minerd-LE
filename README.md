@@ -1,2 +1,2 @@
-# minerd-LE
+# Minerd LE
 Minerd CPU miner adapted to LE technology
