@@ -8,4 +8,4 @@ Example of pool mining:
 minerd --url=stratum+tcp://[domain]:[port] -u [wallet] -p x --algo=sha256d -t [threads]
 ```
 
-Download latest release from (here)[releases].
+Download latest release from [here](releases).
