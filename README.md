@@ -9,3 +9,11 @@ minerd --url=stratum+tcp://[domain]:[port] -u [wallet] -p x --algo=sha256d -t [t
 ```
 
 Download latest release from [here](../../releases).
+
+## Unix Dependencies
+
+**libcurl**: https://curl.haxx.se/libcurl/
+**jansson**: http://www.digip.org/jansson/
+
+You must have these libraries installed in your unix system in order to run the miner properly.
+
