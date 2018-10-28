@@ -15,5 +15,5 @@ Download latest release from [here](../../releases).
 - **libcurl**: https://curl.haxx.se/libcurl/
 - **jansson**: http://www.digip.org/jansson/
 
-You must have these libraries installed in your unix system in order to run the miner properly.
+You must have these libraries installed in your unix system.
 
