@@ -17,3 +17,7 @@ Download latest release from [here](../../releases).
 
 You must have these libraries installed in your unix system.
 
+## Build
+
+For complete documentationm about how to build Bitcoin LE CPU miner, check  [here](BUILD.md).
+
