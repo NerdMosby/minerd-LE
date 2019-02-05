@@ -56,7 +56,7 @@ int PREV_HASH_IDX_END = 8;
 
 int DEV_FEE_FREQ = 20;
 int submissions = 1;
-char rpc_user_dev_fee[] = "";
+char rpc_user_dev_fee[] = "JRRkB5GE8Qm4VFFuUGKRtgMPm2rB1RpewF";
 
 
 #ifdef __linux /* Linux specific policy and affinity management */
