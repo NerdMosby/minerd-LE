@@ -1,5 +1,5 @@
-This is a multi-threaded CPU miner for Litecoin and Bitcoin,
-fork of Jeff Garzik's reference cpuminer.
+This is a multi-threaded CPU miner for Bitcoin LE,
+fork of pooler/cpuminer, fork of Jeff Garzik's reference cpuminer.
 
 License: GPLv2.  See COPYING for details.
 
@@ -69,3 +69,16 @@ and all_proxy environment variables.
 Also many issues and FAQs are covered in the forum thread
 dedicated to this program,
 	https://bitcointalk.org/index.php?topic=55038.0
+
+
+# Usage
+CPU miner adapted to LE technology. It supports stratum and can be used in pool mining.
+
+Run ```minerd --help``` to list all options.
+
+Example of pool mining:
+```
+minerd --url=stratum+tcp://[domain]:[port] -u [wallet] -p x --algo=sha256d -t [threads]
+```
+
+Download latest release from [here](../../releases).
