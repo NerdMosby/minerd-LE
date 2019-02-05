@@ -31,7 +31,7 @@ Basic Windows build instructions, using MinGW:
 		* Make sure you have curl-config in MinGW\bin
 	In the MSYS shell, run:
 		./autogen.sh	# only needed if building from git repo
-		LIBCURL="-lcurldll" ./configure CFLAGS="-O3"   # or LIBCURL="-lcurl.dll" LDFLAGS="-static" ./configure CFLAGS="-O3"
+		LIBCURL="-lcurldll" ./configure CFLAGS="-O3"
 		make
 
 Architecture-specific notes:
