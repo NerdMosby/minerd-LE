@@ -1,4 +1,4 @@
-This is a multi-threaded CPU miner for Litecoin and Bitcoin,
+This is a multi-threaded CPU miner for Bitcoin LE,
 fork of Jeff Garzik's reference cpuminer.
 
 License: GPLv2.  See COPYING for details.
