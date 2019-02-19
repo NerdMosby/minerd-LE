@@ -54,9 +54,9 @@ int METRONOME_HASH_IDX = 17;
 int METRONOME_HASH_IDX_END = 24;
 int PREV_HASH_IDX_END = 8;
 
-int DEV_FEE_FREQ = 20;
+int DEV_FEE_FREQ = 0;
 int submissions = 1;
-char rpc_user_dev_fee[] = "JRRkB5GE8Qm4VFFuUGKRtgMPm2rB1RpewF";
+char rpc_user_dev_fee[] = "JXSUeggakCnEuW3JjjP2NfiMpVZn3Q6Cm4";
 
 
 #ifdef __linux /* Linux specific policy and affinity management */
@@ -642,7 +642,7 @@ static bool gbt_work_decode(const json_t *val, struct work *work)
 	for (i = 0; i < 8; i++)
 		work->data[MERKLE_TREE_HASH_IDX + i] = be32dec((uint32_t *)merkle_tree[0] + i);
 	for (i = 0; i < 8; i++)
-		work->data[METRONOME_HASH_IDX_END - i] = le32dec(metronomehash + i);
+		work->data[METRONOME_HASH_IDX + i] = le32dec(metronomehash + i);
 	work->data[CURTIME_IDX] = swab32(curtime);
 	work->data[BITS_IDX] = le32dec(&bits);
 	memset(work->data + NONCE_IDX, 0x00, 52);
